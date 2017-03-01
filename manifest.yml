@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: KoneDev
+  host: KoneDev
+  disk_quota: 1024M
+  services:
+  - KoneDev-cloudantNoSQLDB
+  - KoneDev-iotf-service
